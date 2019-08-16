@@ -1,0 +1,71 @@
+* {
+    text-align: center;
+    padding: 50px;
+    font-family: helvetica;
+}
+
+html {
+    border: solid 0.3em;
+    width: auto;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-color: green;
+}
+
+ul {
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    box-sizing: border-box;
+    display: inline;
+}
+
+a:link {
+    text-decoration: none;
+    background-color: green;
+    border-radius: 3px;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: pink;
+}
+
+main {
+    margin-top: 0px;
+}
+
+#imgh {
+    clear: left;
+    margin-top: 30px;
+}
+
+#banner {
+    margin-top: 30px;
+}
+
+#imga {
+    display: block;
+    float: left;
+}
+
+article {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+           
+footer {
+    clear: left;
+    text-align: center;
+    padding-top: 30px;
+}
